@@ -1,0 +1,24 @@
+Project: strlen
+
+Summary:
+In this mini project, I reinforced my understanding of basic string properties in C — particularly how strings always end with the null terminator '\0'. This project also helped me review how user input works, using both fgets() and scanf(). It wasn’t the hardest project, but it was a solid refresher and a good way to get back into C programming.
+
+Key Learnings
+
+Strings in C always end with the null terminator '\0'.
+
+fgets() keeps the newline '\n' from input, while scanf() typically stops before it. It’s often a good idea to remove the newline to prevent bugs.
+
+char * is a pointer to the first character in a string (the starting address).
+
+char array[1000] creates a full character array capable of storing 1000 characters.
+
+char *array[1000] instead creates an array of 1000 pointers — a completely different thing.
+
+The difference between '\0' and '\n':
+
+'\0' → Marks the end of a string.
+
+'\n' → Represents a newline (the Enter key).
+
+For user input, removing the newline prevents it from being counted as part of the string.
